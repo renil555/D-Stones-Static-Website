@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products Detail - D Stones</title>
+
+    <!-- Favicons -->
+    <link href="assets/img/Logo/Logo.jpeg" rel="icon">
+    <link href="assets/img/Logo/Logo.jpeg" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/main.css" />
+</head>
+
+<body>
+    <div id="loader" class="spinner-wrapper">
+        <div class="spinner"></div>
+    </div>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <section id="Product-desc" class="product-desc">
+        <div class="container" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house-door-fill"></i>Home</a></li>
+                    <li class="breadcrumb-item"><a href="product.html"><i class="bi bi-bag-fill"></i>Products</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Detailed Product Showcase</li>
+                </ol>
+            </nav>
+            <div class="category-section">
+                <!--Mosaic Section-->
+                <div id="mosaic-section" style="display: none;">
+                    <h2 class="text-center">Mosaic Claddings</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Add texture and style to any surface with our premium Mosaic Cladding—a
+                            decorative stone layer
+                            used for walls, columns, and facades.
+                            Perfect for both indoor and outdoor spaces, it combines elegance with durability.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br /> We offer handpicked,
+                            high-quality cladding with competitive pricing and reliable delivery—making your space
+                            stunning without compromise.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Mosaic/Mosaic-1.jpeg" class="glightbox"
+                                data-gallery="mosaic-gallery">
+                                <img src="/assets/img/products/Mosaic/Mosaic-1.jpeg" alt="Mosaic" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Mosaic/Mosaic-2.jpeg" class="glightbox"
+                                data-gallery="mosaic-gallery">
+                                <img src="/assets/img/products/Mosaic/Mosaic-2.jpeg" alt="Mosaic" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Mosaic/Mosaic-3.jpeg" class="glightbox"
+                                data-gallery="mosaic-gallery">
+                                <img src="/assets/img/products/Mosaic/Mosaic-3.jpeg" alt="Mosaic" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Mosaic/Mosaic-4.jpg" class="glightbox"
+                                data-gallery="mosaic-gallery">
+                                <img src="/assets/img/products/Mosaic/Mosaic-4.jpg" alt="Mosaic" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Panel Section-->
+                <div id="panel-section" style="display: none;">
+                    <h2 class="text-center">Panel Claddings</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Enhance your building’s appearance with our sleek Panel Cladding,
+                            designed for modern exteriors and interiors.
+                            It provides a clean, contemporary finish while offering protection from weather and wear.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br /> We deliver durable, low-maintenance panels with expert support
+                            and value-driven pricing—ensuring quality and style that lasts.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Panel/Panel-1.jpeg" class="glightbox"
+                                data-gallery="panel-gallery">
+                                <img src="/assets/img/products/Panel/Panel-1.jpeg" alt="Panel" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Panel/Panel-2.jpeg" class="glightbox"
+                                data-gallery="panel-gallery">
+                                <img src="/assets/img/products/Panel/Panel-2.jpeg" alt="Panel" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Panel/Panel-3.jpeg" class="glightbox"
+                                data-gallery="panel-gallery">
+                                <img src="/assets/img/products/Panel/Panel-3.jpeg" alt="Panel" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Panel/Panel-4.jpeg" class="glightbox"
+                                data-gallery="panel-gallery">
+                                <img src="/assets/img/products/Panel/Panel-4.jpeg" alt="Panel" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--RR Section-->
+                <div id="rr-section" style="display: none;">
+                    <h2 class="text-center">Random Rubbles</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Bring a rustic, natural charm to your walls or landscapes with our Random
+                            Rubbles—irregularly shaped stones
+                            ideal for traditional masonry, garden edging, and boundary walls.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br /> Our rubbles are carefully sourced for strength and authenticity,
+                            with consistent supply and fair pricing tailored to your project needs.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/RR/RR-1.webp" class="glightbox" data-gallery="rr-gallery">
+                                <img src="/assets/img/products/RR/RR-1.webp" alt="RR" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/RR/RR-2.webp" class="glightbox" data-gallery="rr-gallery">
+                                <img src="/assets/img/products/RR/RR-2.webp" alt="RR" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/RR/RR-3.webp" class="glightbox" data-gallery="rr-gallery">
+                                <img src="/assets/img/products/RR/RR-3.webp" alt="RR" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/RR/RR-4.webp" class="glightbox" data-gallery="rr-gallery">
+                                <img src="/assets/img/products/RR/RR-4.webp" alt="RR" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/RR/RR-5.webp" class="glightbox" data-gallery="rr-gallery">
+                                <img src="/assets/img/products/RR/RR-5.webp" alt="RR" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Basalt Section-->
+                <div id="basalt-section" style="display: none;">
+                    <h2 class="text-center">Basalt Pattern</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Achieve a sleek, contemporary look with our Basalt Patterns —
+                            precision-cut stones
+                            ideal for pathways, patios, feature walls, and architectural accents.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br /> Our basalt is known for its strength, uniform texture, and elegant dark tones.
+                            We provide customizable patterns, reliable supply, and competitive pricing
+                            to suit both modern and traditional design needs.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Basalt/Basalt-1.jpg" class="glightbox" data-gallery="basalt-gallery">
+                                <img src="/assets/img/products/Basalt/Basalt-1.jpg" alt="RR" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Basalt/Basalt-2.jpg" class="glightbox" data-gallery="basalt-gallery">
+                                <img src="/assets/img/products/Basalt/Basalt-2.jpg" alt="RR" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Basalt/Basalt-3.jpeg" class="glightbox" data-gallery="basalt-gallery">
+                                <img src="/assets/img/products/Basalt/Basalt-3.jpeg" alt="RR" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Basalt/Basalt-4.jpeg" class="glightbox" data-gallery="basalt-gallery">
+                                <img src="/assets/img/products/Basalt/Basalt-4.jpeg" alt="RR" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Slabs Section-->
+                <div id="slab-section" style="display: none;">
+                    <h2 class="text-center">Cladding Slabs</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description"> Add sophistication and durability to any surface with our premium
+                            Cladding Slabs —
+                            perfect for façades, columns, interior walls, and exterior elevations.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br />Our slabs are precisely cut and finished to ensure seamless installation and
+                            long-lasting performance.
+                            With a wide range of textures, sizes, and finishes, we cater to both modern and classic
+                            design styles.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Slabs/Slab-1.jpeg" class="glightbox"
+                                data-gallery="slab-gallery">
+                                <img src="/assets/img/products/Slabs/Slab-1.jpeg" alt="Slab" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Slabs/Slab-2.jpeg" class="glightbox"
+                                data-gallery="slab-gallery">
+                                <img src="/assets/img/products/Slabs/Slab-2.jpeg" alt="Slab" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Slabs/Slab-3.jpeg" class="glightbox"
+                                data-gallery="slab-gallery">
+                                <img src="/assets/img/products/Slabs/Slab-3.jpeg" alt="Slab" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Panel/Slabs/Slab-4.jpeg" class="glightbox"
+                                data-gallery="slab-gallery">
+                                <img src="/assets/img/products/Slabs/Slab-4.jpeg" alt="Slab" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Terracotta Section-->
+                <div id="terracotta-section" style="display: none;">
+                    <h2 class="text-center">Natural Terracottas</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Add timeless charm to your space with our Natural Terracotta tiles and
+                            bricks — crafted from rich,
+                            earthy clay and fired to perfection. Ideal for indoor and outdoor flooring, cladding, and
+                            décor,
+                            terracotta is loved for its rustic texture, warm tone, and breathable nature.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br /> We offer hand-selected, durable terracotta that’s naturally weather-resistant,
+                            low-maintenance, and eco-friendly.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/N-Teracotta/Terracotta-1.jpeg" class="glightbox"
+                                data-gallery="terracotta-gallery">
+                                <img src="/assets/img/products/N-Teracotta/Terracotta-1.jpeg" alt="Natural Terracotta"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/N-Teracotta/Terracotta-2.jpeg" class="glightbox"
+                                data-gallery="terracotta-gallery">
+                                <img src="/assets/img/products/N-Teracotta/Terracotta-2.jpeg" alt="Natural Terracotta"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/N-Teracotta/Terracotta-3.jpeg" class="glightbox"
+                                data-gallery="terracotta-gallery">
+                                <img src="/assets/img/products/N-Teracotta/Terracotta-3.jpeg" alt="Natural Terracotta"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/N-Teracotta/Terracotta-4.jpeg" class="glightbox"
+                                data-gallery="terracotta-gallery">
+                                <img src="/assets/img/products/N-Teracotta/Terracotta-4.jpeg" alt="Natural Terracotta"
+                                    class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Handcrafted Section-->
+                <div id="handcrafted-section" style="display: none;">
+                    <h2 class="text-center">Handcrafted Designs</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Experience the beauty of tradition with our Handcrafted Terracotta — each
+                            piece is
+                            individually molded and fired by skilled artisans to bring a unique, organic character to
+                            your space.
+                            Perfect for accent walls, garden décor, facades, and custom interiors,
+                            these pieces offer a distinct aesthetic no machine-made product can match.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br /> we deliver authentic, artisan-quality terracotta with consistent finishing and
+                            long-term durability.
+                            Support traditional craftsmanship while adding unmatched elegance to your home or project.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Handcrafted/Handcarfted-T-1.jpeg" class="glightbox"
+                                data-gallery="handcrafted-gallery">
+                                <img src="/assets/img/products/Handcrafted/Handcarfted-T-1.jpeg"
+                                    alt="Handcrafted-Terracotta" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Handcrafted/Handcarfted-T-2.jpeg" class="glightbox"
+                                data-gallery="handcrafted-gallery">
+                                <img src="/assets/img/products/Handcrafted/Handcarfted-T-2.jpeg"
+                                    alt="Handcrafted-Terracotta" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Handcrafted/Handcarfted-T-3.jpeg" class="glightbox"
+                                data-gallery="handcrafted-gallery">
+                                <img src="/assets/img/products/Handcrafted/Handcarfted-T-3.jpeg"
+                                    alt="Handcrafted-Terracotta" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Handcrafted/Handcarfted-T-4.jpeg" class="glightbox"
+                                data-gallery="handcrafted-gallery">
+                                <img src="/assets/img/products/Handcrafted/Handcarfted-T-4.jpeg"
+                                    alt="Handcrafted-Terracotta" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Kota Section-->
+                <div id="kota-section" style="display: none;">
+                    <h2 class="text-center">Kota Stones</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Renowned for its natural durability and timeless appeal, Kota Stone is a
+                            premium limestone
+                            ideal for flooring, pathways, wall cladding, and courtyards. Its smooth finish and earthy
+                            tones
+                            make it a perfect blend of strength and style — suitable for both modern and traditional
+                            spaces.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br />We offer finely cut, factory-finished Kota Stone that’s slip-resistant, weather-proof,
+                            and low-maintenance. Our selection ensures long-lasting performance without compromising on
+                            elegance.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Kota/Kota-1.jpeg" class="glightbox"
+                                data-gallery="kota-gallery">
+                                <img src="/assets/img/products/Kota/Kota-1.jpeg" alt="Kota Stone" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Kota/Kota-2.jpeg" class="glightbox"
+                                data-gallery="kota-gallery">
+                                <img src="/assets/img/products/Kota/Kota-2.jpeg" alt="Kota Stone" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Kota/Kota-3.jpeg" class="glightbox"
+                                data-gallery="kota-gallery">
+                                <img src="/assets/img/products/Kota/Kota-3.jpeg" alt="Kota Stone" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Kota/Kota-4.jpeg" class="glightbox"
+                                data-gallery="kota-gallery">
+                                <img src="/assets/img/products/Kota/Kota-4.jpeg" alt="Kota Stone" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Bangalore Section-->
+                <div id="bangalore-section" style="display: none;">
+                    <h2 class="text-center">Bangalore Stones</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Celebrated for their hardness, uniform texture, and aesthetic
+                            versatility,
+                            Bangalore Stones are a top choice for paving, tiling, cladding, and landscaping.
+                            Sourced from the heart of Karnataka, they offer a rich, natural appearance with superior
+                            strength and longevity.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br />We provide authentic, high-grade Bangalore Stones with consistent finish and
+                            customizable sizes
+                            — ensuring precision, durability, and value for every application.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Bangalore/Bangalore-1.jpeg" class="glightbox"
+                                data-gallery="bangalore-gallery">
+                                <img src="/assets/img/products/Bangalore/Bangalore-1.jpeg" alt="Bangalore Stone"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Bangalore/Bangalore-2.jpeg" class="glightbox"
+                                data-gallery="bangalore-gallery">
+                                <img src="/assets/img/products/Bangalore/Bangalore-2.jpeg" alt="Bangalore Stone"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Bangalore/Bangalore-3.jpeg" class="glightbox"
+                                data-gallery="bangalore-gallery">
+                                <img src="/assets/img/products/Bangalore/Bangalore-3.jpeg" alt="Bangalore Stone"
+                                    class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Tandur Section-->
+                <div id="tandur-section" style="display: none;">
+                    <h2 class="text-center">Tandur Stones</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Known for its subtle color tones and dense composition, Tandur Stone is
+                            widely used for flooring, wall cladding, and paving. Its anti-skid surface and natural
+                            durability make it ideal for both indoor and outdoor applications.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br />We offer premium Tandur Stone sourced directly from quarries, with perfect cuts and
+                            uniform thickness, ensuring aesthetic appeal, easy installation, and long-lasting
+                            performance.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Tandur/Tandur-1.jpeg" class="glightbox"
+                                data-gallery="tandur-gallery">
+                                <img src="/assets/img/products/Tandur/Tandur-1.jpeg" alt="Tandur Stone"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Tandur/Tandur-2.jpeg" class="glightbox"
+                                data-gallery="tandur-gallery">
+                                <img src="/assets/img/products/Tandur/Tandur-2.jpeg" alt="Tandur Stone"
+                                    class="img-fluid" />
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!--Paver Exterior Section-->
+                <div id="pavere-section" style="display: none;">
+                    <h2 class="text-center">Paver Exterior Stones</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Engineered for strength and style, Paver Exterior Stones are perfect for
+                            driveways, walkways, patios, and landscapes. Their interlocking design, weather resistance,
+                            and non-slip finish make them a durable and stylish choice for outdoor spaces.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br />Our pavers are crafted for maximum load-bearing, come in varied textures and colors,
+                            and are backed by expert guidance and quality assurance, ensuring beauty that lasts through
+                            seasons.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Paver-E/Paver-E-1.jpeg" class="glightbox"
+                                data-gallery="pe-gallery">
+                                <img src="/assets/img/products/Paver-E/Paver-E-1.jpeg" alt="Paver Exterior"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Paver-E/Paver-E-3.jpeg" class="glightbox"
+                                data-gallery="pe-gallery">
+                                <img src="/assets/img/products/Paver-E/Paver-E-3.jpeg" alt="Paver Exterior"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Paver-E/Paver-E-2.jpeg" class="glightbox"
+                                data-gallery="pe-gallery">
+                                <img src="/assets/img/products/Paver-E/Paver-E-2.jpeg" alt="Paver Exterior"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Paver-E/Paver-E-4.jpg" class="glightbox"
+                                data-gallery="pe-gallery">
+                                <img src="/assets/img/products/Paver-E/Paver-E-4.jpg" alt="Paver Exterior"
+                                    class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Paver Interior Section-->
+                <div id="paveri-section" style="display: none;">
+                    <h2 class="text-center">Paver Interior Stones</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Blending functionality with charm, Paver Interior Stones bring a rustic,
+                            earthy look to hallways, foyers, living spaces, and indoor courtyards. Their natural
+                            textures and modular patterns add character and warmth to any interior.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br />We offer hand-selected, high-durability pavers in custom finishes—perfect for
+                            achieving that timeless aesthetic with modern resilience.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Paver-I/Paver-3.jpg" class="glightbox"
+                                data-gallery="pi-gallery">
+                                <img src="/assets/img/products/Paver-I/Paver-3.jpg" alt="Paver Interior"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Paver-I/Paver-1.jpg" class="glightbox"
+                                data-gallery="pi-gallery">
+                                <img src="/assets/img/products/Paver-I/Paver-1.jpg" alt="Paver Interior"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Paver-I/Paver-4.jpg" class="glightbox"
+                                data-gallery="pi-gallery">
+                                <img src="/assets/img/products/Paver-I/Paver-4.jpg" alt="Paver Interior"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Paver-I/Paver-2.jpg" class="glightbox"
+                                data-gallery="pi-gallery">
+                                <img src="/assets/img/products/Paver-I/Paver-2.jpg" alt="Paver Interior"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Paver-I/Paver-5.jpg" class="glightbox"
+                                data-gallery="pi-gallery">
+                                <img src="/assets/img/products/Paver-I/Paver-5.jpg" alt="Paver Interior"
+                                    class="img-fluid" />
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Pebbles-->
+                <div id="pebbles-section" style="display: none;">
+                    <h2 class="text-center">Pebbles</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Our premium natural pebbles are ideal for landscaping, pathways,
+                            planters, water features, and decorative accents. Available in a variety of colors and
+                            sizes, they add texture, elegance, and natural beauty to any space.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br />We provide carefully curated, weather-resistant pebbles that maintain their look and
+                            feel over time—perfect for both indoor and outdoor use.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Pebles/Pebbles-1.jpeg" class="glightbox"
+                                data-gallery="pebble-gallery">
+                                <img src="/assets/img/products/Pebles/Pebbles-1.jpeg" alt="Pebbles" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Pebles/Pebbles-2.jpeg" class="glightbox"
+                                data-gallery="pebble-gallery">
+                                <img src="/assets/img/products/Pebles/Pebbles-2.jpeg" alt="Pebbles" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Pebles/Pebbles-3.jpeg" class="glightbox"
+                                data-gallery="pebble-gallery">
+                                <img src="/assets/img/products/Pebles/Pebbles-3.jpeg" alt="Pebbles" class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Pebles/Pebbles-4.jpeg" class="glightbox"
+                                data-gallery="pebble-gallery">
+                                <img src="/assets/img/products/Pebles/Pebbles-4.jpeg" alt="Pebbles" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Pool Tiles Section-->
+                <div id="pooltile-section" style="display: none;">
+                    <h2 class="text-center">Pool Tiles</h2>
+                    <div class="product-item">
+                        <br />
+                        <p class="description">Our anti-skid, weather-resistant poolside tiles are designed for safety
+                            and style. They provide a cool, slip-resistant surface ideal for wet areas around pools,
+                            patios, and garden walkways.
+                        </p>
+                        <p>
+                            <b class="highlight"> Why choose us? </b>
+                            <br />We offer durable, elegant tiles with a natural finish that stays cool
+                            underfoot—combining safety, beauty, and long-term performance.
+                        </p>
+                        <div class="product-img">
+                            <a href="/assets/img/products/Pool-Tile/Pool-1.jpeg" class="glightbox"
+                                data-gallery="pool-gallery">
+                                <img src="/assets/img/products/Pool-Tile/Pool-1.jpeg" alt="Pool Tile"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Pool-Tile/Pool-2.jpeg" class="glightbox"
+                                data-gallery="pool-gallery">
+                                <img src="/assets/img/products/Pool-Tile/Pool-2.jpeg" alt="Pool Tile"
+                                    class="img-fluid" />
+                            </a>
+                            <a href="/assets/img/products/Pool-Tile/Pool-3.jpeg" class="glightbox"
+                                data-gallery="pool-gallery">
+                                <img src="/assets/img/products/Pool-Tile/Pool-3.jpeg" alt="Pool Tile"
+                                    class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contact-wrapper">
+        <div class="contact-toggle">
+            <i class="bi bi-chevron-left"></i>
+        </div>
+        <div class="floating-contact-buttons">
+            <a href="https://wa.me/919633355578" target="_blank" class="contact-btn whatsapp"
+                aria-label="Chat on WhatsApp">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="tel:+919633355578" class="contact-btn phone" aria-label="Call Now">
+                <i class="bi bi-telephone-fill"></i>
+            </a>
+        </div>
+    </div>
+    <button id="scrollToTopBtn" aria-label="Scroll to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
