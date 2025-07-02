@@ -331,6 +331,7 @@ p {
   flex: 1;
   position: relative;
   min-width: 300px;
+  text-align: center;
 }
 
 .main-img {
@@ -412,6 +413,10 @@ p {
 
   .floating-img {
     display: none;
+  }
+
+  .experience-badge{
+   left: 10%;
   }
 }
 
