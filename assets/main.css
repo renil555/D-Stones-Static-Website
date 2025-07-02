@@ -356,7 +356,6 @@ p {
 .experience-badge {
   position: absolute;
   bottom: -20px;
-  left: -20px;
   background: linear-gradient(to bottom, var(--color-primary), var(--color-accent));
   color: #fff;
   padding: 1rem;
