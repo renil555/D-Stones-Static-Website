@@ -895,13 +895,15 @@ p {
   color: var(--color-primary);
 }
 
-.footer-bottom {
-  text-align: center;
-  margin-top: 40px;
+.footer-company-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   font-size: 14px;
   color: #aaa;
-  border-top: 1px solid #333;
-  padding-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-contact-form {
@@ -948,6 +950,10 @@ p {
   .footer-contact-form .form-row {
     flex-direction: column;
   }
+
+   .footer-company-link{
+        justify-content: center !important;
+    }
 }
 
 /*--------------------------------------------------------------
